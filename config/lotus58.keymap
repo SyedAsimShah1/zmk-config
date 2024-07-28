@@ -68,21 +68,21 @@
         s_buffer: s_buffer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp NUMBER_6>;
+            bindings = <&kp LC(NUMBER_6)>;
             label = "S_BUFFER";
         };
 
         s_window: s_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp A &kp L>;
+            bindings = <&kp LC(A) &kp L>;
             label = "S_WINDOW";
         };
 
         s_session: s_session {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp A &kp LSHFT &kp N>;
+            bindings = <&kp LC(A) &kp LS(L)>;
             label = "S_SESSION";
         };
     };
