@@ -180,7 +180,7 @@
 &trans      &trans    &kp PG_UP  &kp UP_ARROW    &kp PG_DN    &s_window                  &kp AMPERSAND  &kp GRAVE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
 &caps_word  &kp HOME  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT    &kp END    &trans  &trans  &kp PIPE       &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
 &trans      &trans    &kp K_CUT  &kp K_COPY      &kp K_PASTE  &s_buffer  &trans  &trans  &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT        &trans
-                                 &kp F11         &trans       &trans     &trans  &trans  &trans         &trans      &kp F12
+                                 &trans          &trans       &trans     &trans  &trans  &trans         &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
