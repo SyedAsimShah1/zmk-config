@@ -66,8 +66,8 @@
         ht_layer: ht_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            flavor = "balanced";
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
 
             label = "HT_LAYER";
